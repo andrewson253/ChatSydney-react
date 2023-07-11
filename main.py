@@ -4,6 +4,7 @@ import json
 import os
 import random
 import traceback
+import urllib.request
 import emoji
 import httpx
 import claude
