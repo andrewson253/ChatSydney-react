@@ -371,7 +371,7 @@
                 if (image.length /1024 > 1024) {
                     throw Error("Picture too large.");
                 }
-                fetch(`http://${window.location.host}/upload_image/`, {
+                fetch(`https://${window.location.host}/upload_image/`, {
                     method: 'POST',
                     headers: {
                         'Accept': 'application/json',
